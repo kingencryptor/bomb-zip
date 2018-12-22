@@ -64,9 +64,9 @@ if __name__ == '__main__':
 		os.remove(out_zip_file)
 	os.rename('%d.zip'%(n_levels+1),out_zip_file)
 	end_time = time.time()
-	print 'Ukuran File yang Terkompres: %.2f KB'%(get_file_size(out_zip_file)/1024.0)
-	print 'Ukuran setelah di Extract: %d GB'%decompressed_size
-	print 'Lama pembuatan file: %.2fdetik'%(end_time - start_time)
+	print 'Ukuran File yang Terkompres--> %.2f KB'%(get_file_size(out_zip_file)/1024.0)
+	print 'Ukuran setelah di Extract----> %d GB'%decompressed_size
+	print 'Lama pembuatan file----------> %.2f Detik'%(end_time - start_time)
 	print 'Salam dari saya, KING-ENCRYPTOR'
 
 #RECODE GAK MEMBUAT KAMU SEORANG PROGRAMMER,
