@@ -66,7 +66,7 @@ if __name__ == '__main__':
 	end_time = time.time()
 	print 'Ukuran File yang Terkompres: %.2f KB'%(get_file_size(out_zip_file)/1024.0)
 	print 'Ukuran setelah di Extract: %d GB'%decompressed_size
-	print 'Lama pembuatan file: %.2fs'%(end_time - start_time)
+	print 'Lama pembuatan file: %.2fdetik'%(end_time - start_time)
 	print 'Salam dari saya, KING-ENCRYPTOR'
 
 #RECODE GAK MEMBUAT KAMU SEORANG PROGRAMMER,
